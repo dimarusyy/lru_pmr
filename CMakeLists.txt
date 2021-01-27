@@ -13,8 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
-#add_subdirectory(src)
+enable_testing()
 add_subdirectory(tests)
 
-enable_testing()
 

@@ -10,7 +10,7 @@ TEST_CASE("create")
 
 TEST_CASE("add 1")
 {
-    cache_t<std::string, std::string> c(100);
+    cache_t<std::string, std::string> c(1000);
     c.add("key1", "hello #1");
     
     CHECK(c.size() == 1);
@@ -18,7 +18,7 @@ TEST_CASE("add 1")
 
 TEST_CASE("add 2 the same")
 {
-    cache_t<std::string, std::string> c(100);
+    cache_t<std::string, std::string> c(1000);
     c.add("key1", "hello #1");
     c.add("key1", "hello #1");
 
@@ -27,7 +27,7 @@ TEST_CASE("add 2 the same")
 
 TEST_CASE("add 3")
 {
-    cache_t<std::string, std::string> c(100);
+    cache_t<std::string, std::string> c(1000);
     c.add("key1", "hello #1");
     c.add("key2", "hello #2");
     

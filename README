@@ -1,0 +1,2 @@
+# LRU cache
+This is an attempt to use std::pmr allocators with size-limited pool in memory.
