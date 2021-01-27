@@ -1,0 +1,8 @@
+{
+  "name": "lru",
+  "version-string": "0.0.1",
+  "description": "LRU based on std::pmr",
+  "dependencies": [
+    "doctest"
+  ]
+}
